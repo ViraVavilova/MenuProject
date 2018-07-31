@@ -1,0 +1,42 @@
+body{
+	margin: 0 0;
+}
+
+.main{
+	background: #2d5358;
+	width: 1233px;
+	height: 98px;
+	margin: 0 auto;
+	vertical-align:middle;
+}
+.logo{
+	float: left;
+	padding-top: 39px;
+	padding-left: 48px;
+}
+.logo a{
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15pt;
+
+}
+ul{
+	list-style-type: none;
+	padding-top: 40px;
+	padding-left: 715px;
+	margin-top: 0;
+}
+li {
+	float: left;
+	text-align: right;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0px 15px;
+	text-decoration: none;
+	font-size: 10pt;
+}
