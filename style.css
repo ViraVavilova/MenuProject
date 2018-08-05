@@ -9,50 +9,12 @@ body{
 	margin: 0 0;
 	font-family: 'Open Sans';
 }
-.main{
-	background: #2d5358;
-	width: 1233px;
-	height: 98px;
-	margin: 0 auto;
-	text-transform: uppercase;
-}
-.logo{
-	height: 98px;
-	width: 170px;
-	display: flex;
-	float: left;
-}
 .logo a{
-	color: white;
-	text-decoration: none;
-	font-size: 15pt;
-
-	margin: auto;
+display: none;
+}
+img{
+	display: none;
 }
 .menu{
-	height: 98px;
-	width: 1063px;
-	display: flex;
-}
-ul{
-	list-style-type: none;
-	margin: 0 35px 0 auto;
-}
-li {
-	float: left;
-	height: 98px;
-	display: flex;
-}
-li a{
-	display: block;
-	height: 50px;
-	margin: auto;
-	padding: 0px 15px;
-	text-decoration: none;
-	color: white;
-	font-size: 10pt;
-	line-height: 48px
-}
-li a:hover { 
-    color: #bde0e6;
+	display: none;
 }
