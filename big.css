@@ -1,86 +1,40 @@
 .main{
 	background: #2d5358;
-	height: 98px;
 	text-transform: uppercase;
 	padding: 0 48px;
+	overflow: hidden;
 }
 .logo a{
 	display: block;
 	color: white;
 	text-decoration: none;
 	font-size: 15pt;
-	line-height: 98px;
+	line-height: 5em;
 	float: left;
 }
 img{
 	display: none;
 }
 .menu{
-	display: flex;
-	height: 100%;
 	float: right;
 }
 ul{
-	height: 100%;
-	width: 100%;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
 li {
-	height: 100%;
 	float: left;
 }
 li a{
 	display: block;
-	height: 100%;
 	margin: 0;
 	padding: 0px 15px;
 	text-decoration: none;
 	color: white;
 	font-size: 10.5pt;
-	line-height: 98px;
+	line-height: 7.5em;
 }
 li a:hover { 
     color: #bde0e6;
 }
-/*@media screen and (min-width: 320px) and (max-width: 768px){
-	.main{
-	height: 100%;
-	padding: 0 0;
-	}
-	.main-top{
-	height: 50px;
-	display: flex;
-	padding: 0 15px;
-	}
-	.logo a{
-	font-size: 20pt;
-	line-height: 50px;
-	}
-	.menu-button {
-	padding:0;
-	margin: auto 0 auto auto;
-	height: 34px;
-	}
-	img{
-		width: 42px;
-		height: 32px;
-		border: 1px solid white;
-		margin:auto;
-	}
-	.menu{
-	display: flex;
-	padding: 0 0 0 15px;
-	border-top: 1px solid white;
-	}
-	li {
-	width: 100%;
-	}
-	li a{
-	width: 100%;
-	padding: 0 0;
-	font-size: 13.5pt;
-	line-height: 50px;
-	}
-}*/
